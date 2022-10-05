@@ -2,7 +2,7 @@ name: Build
 on:
   push:
     branches:
-      - main
+      - dos
   pull_request:
     types: [opened, synchronize, reopened]
 jobs:
